@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner
+{
+    background-image:url("desktop/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+}
+#navLinks
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Barlow',sans-serif;
+    font-size: 15px;
+}
+#contact
+{
+    text-transform: uppercase;
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.5rem 0.7rem;
+    border-radius: 20px;
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+}
+#navLinks span
+{
+    color: white;
+} 
+h1
+{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: 'Fraunces',serif;
+    margin-bottom: 6rem;
+    letter-spacing: 8px;    
+}
+.banner #arrow-img
+{
+    height: 13vh;
+    width: 2.5vw;
+    margin-bottom: 9rem;
+}
+.main
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+}
+section
+{
+    display: flex;
+    flex: 1;
+    height: 80vh;
+    width: 100vw;
+}
+section h2
+{
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+section img
+{
+    width: 50vw;
+    height: 100%;
+    background-size: cover;
+}
+section p
+{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    color: hsl(210, 4%, 67%);
+}
+section span
+{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 7vw;
+    
+}
+section div.text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    background-color: hsl(50, 20%, 94%);
+}
+.section3
+{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+}
+.text-1
+{
+    background-image:url("desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: hsl(167, 40%, 24%);
+}
+.text-2
+{
+    background-image:url("desktop/image-photography.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+}
+.text-1,.text-2
+{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 7rem;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+.section3 h2
+{
+    margin-bottom: 2.5vh;
+}
+.text-1 p
+{
+    color: hsl(167, 40%, 24%);
+}
+.text-2 p
+{
+    color: hsl(198, 62%, 26%)
+}
+
+.clients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(50, 20%, 94%);
+}
+.clients h2
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 4rem;
+}
+.testimonials
+{
+    display: flex;
+    justify-content: center;
+}
+.testimonials div
+{
+    height: auto;
+    width: 20vw;
+    margin: 2vw;
+    text-align: center;
+}
+.testimonials img
+{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+}
+.testimonials h2
+{
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 5px;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.comment
+{
+    color: black;
+}
+.section4
+{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section4 img
+{
+    height: 100%;
+    width: 25vw;
+}
+.footer
+{
+    background-color: hsl(168, 39%, 57%);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer img
+{
+    height: 5vh;
+    width: 12vw;
+}
+.footer-nav
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.footer-nav span
+{
+    color: hsl(167, 40%, 24%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer-imgs
+{
+    width: 20%;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-imgs img
+{
+    height: 4vh;
+    width: 2vw;
+}
+#contact:hover
+{
+    background-color: hsl(202, 100%, 86%);
+    color: hsl(0, 0%, 100%);
+}
+.section1 span:hover
+{
+    text-decoration: underline 0.2rem hsl(51, 100%, 49%);
+}
+.section2 span:hover
+{
+    text-decoration: underline 0.2rem hsl(7, 99%, 70%);
+}
+
+.footer-nav span:hover
+{
+    color: hsl(0, 0%, 100%);
+}
+@media (max-width:1050px) {
+    section{
+        height: 60vh;
+    }
+}
+@media(max-width:680px)
+{
+    section{
+        flex:1;
+        flex-direction: column;
+        height: auto;
+    }
+    section div.text
+    {
+        height: auto;
+        width:auto;
+        text-align: center;
+    }
+    section img
+    {
+        height: 50vh;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        background-size: cover;
+    }
+    section span
+    {
+        width: auto;
+    }
+    .section3
+    {
+        height: auto;
+        width: auto;
+    }
+    .testimonials img
+    {
+        height: 10vh;
+        width: 15vw;
+    }
+    .text-1,.text-2
+    {
+        height: 50vh;
+    }
+    .clients
+    {
+        height: auto;
+        width: 100%;
+    }
+    .testimonials
+    {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+    }
+    .testimonials div
+    {
+        width: auto
+    }
+    .section4
+    {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .section4 img
+    {
+        height: auto;
+        width: 50%;
+    }
+    .footer
+    {
+        width: 100%;
+    }
+    .footer img
+    {
+        width: auto;
+        margin-top: 1rem;
+    }
+    .footer-nav
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer-imgs
+    {
+        width: 35%;
+        margin-bottom: 3rem;
+    }
+    .footer-imgs img
+    {
+        height: 2vh;
+        width: 3vw;
+    }
+}
